@@ -77,7 +77,7 @@ main section p {
     text-align: center;
 }
 
-main h2 {
+.header-container {
     text-align: center;
     margin: 0 0 35px;
 }
