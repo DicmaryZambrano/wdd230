@@ -1,0 +1,197 @@
+:root {
+    --primary-color: #161008;
+    --secondary-color: #5E503F;
+    --accent1-color: #C6AC8F;
+    --accent2-color: #22333B;
+    --accent3-color: #eec566;
+
+    --heading-font: 'Bitter', Arial, sans-serif;
+    --paragraph-font: 'PT Sans', Verdana, sans-serif;
+
+    --headline-color-on-white: #161008;
+    --headline-color-on-color: #eec566;
+    --paragraph-color-on-white: #161008;
+    --paragraph-color-on-color: #F4F1EF;
+    --paragraph-background-color: #161008;
+    --nav-link-color: #F4F1EF;
+    --nav-background-color: #161008;
+    --nav-hover-link-color: #eec566;
+    --nav-hover-background-color: #5E503F;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+img {
+    height: auto;
+    width: 500px;
+
+    display: block;
+    padding: 25px;
+
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+h2 {
+    text-align: center;
+}
+
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    height: 5px;
+    background-color: #999;
+}
+
+.colors td {
+    width: 15%;
+    height: 25em;
+}
+
+.primary {
+    color: var(--paragraph-color-on-color);
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--paragraph-color-on-color);
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    color: var(--paragraph-color-on-color);
+    background-color: var(--accent2-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
+}
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+nav {
+    overflow: hidden;
+    background-color: var(--nav-background-color);
+}
+
+nav a {
+    float: left;
+    font-size: 16px;
+    color: var(--nav-link-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    min-width: 120px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: var(--nav-link-color);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--nav-background-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: var(--nav-hover-link-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
