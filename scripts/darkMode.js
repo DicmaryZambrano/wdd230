@@ -17,7 +17,7 @@ modeButton.addEventListener("click", () => {
         root.style.setProperty('--text-color-p', "#12090F");
         root.style.setProperty('--text-color-on-h', "#12090F");
         root.style.setProperty('--a-color', "#47008e");
-        root.style.setProperty('--hover-color', "#6E838");
+        root.style.setProperty('--hover-color', "#6E8387");
         modeButton.textContent = "☑️";
     }
 });
