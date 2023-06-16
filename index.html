@@ -24,14 +24,20 @@
 <body>
     <div class="wrap">
         <header>
+            <div id="mode">
+                ☑️
+            </div>
             <img class="profile" src="images/dicmary_photo.jpg" alt="A photo of Dicmary Zambrano">
             <h1>Dicmary Zambrano</h1>
         </header>
         <nav>
-            <a href="">Home</a>
-            <a href="">Chamber</a>
-            <a href="week01/chamber-site-plan.html">Site Plan</a>
-            <a href="">Form</a>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="">Home</a></li>
+                <li><a href="">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="">Form</a></li>
+            </ul>
         </nav>
         <main>
             <div class="header-container">
@@ -54,7 +60,7 @@
                         Week 2:
                         <a href="week02/design.html">CSS design fix</a> ~
                         <a href="https://codepen.io/Dicmary-Zambrano/pen/OJaMrKx">Hamburger Menu</a> ~
-                        <a href="week02/bom.html">Hamburger Menu</a>
+                        <a href="week02/bom.html">Bom Dom Manipulation</a>
                     </li>
                     <li>Week 3:</li>
                     <li>Week 4:</li>
@@ -79,6 +85,8 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 
 </html>

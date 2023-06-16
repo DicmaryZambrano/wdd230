@@ -10,8 +10,24 @@
         font-size: 20px;
     }
 
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
 
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
 
+    .navigation li {
+        display: block;
+
+        flex: 1 1 100%;
+    }
+
+    /*
     nav {
         display: flex;
         justify-content: space-around;
@@ -23,6 +39,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+*/
 
     .header-container {
         text-align: left;

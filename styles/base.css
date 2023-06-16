@@ -8,9 +8,11 @@
     --sec-color: #DD614A;
     --a-color: #47008e;
     --white: #fdfbf7;
+    --btn-color: #FFF2DF;
 
     --text-color-p: #12090F;
     --text-color-h: #12090F;
+    --text-color-on-h: #12090F;
     --text-hover: #12090F;
     --text-color-nav: #FFFBF5;
     --text-color-foot: #FFFBF5;
@@ -67,14 +69,23 @@ main section p {
     border: #32292F solid;
     border-radius: 15px;
     height: 350px;
+    color: var(--text-color-p);
 
     overflow: hidden;
+}
+
+.header-container h2 {
+    color: var(--text-color-on-h);
 }
 
 .card h3 {
     margin-top: 0;
     padding: 15px;
     text-align: center;
+}
+
+.card ul {
+    padding: 15px;
 }
 
 .header-container {
@@ -95,21 +106,72 @@ a:hover {
     color: var(--hover-color)
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 ul li {
     list-style: none;
 }
 
-nav {
-    background: var(--nav-color);
-}
 
-nav a {
-    text-decoration: none;
-    color: var(--text-color-nav);
-
+.navigation li a {
     display: block;
     padding: 15px;
-    text-align: center
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color-nav);
+}
+
+.navigation {
+    background: var(--nav-color);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+.navigation li {
+    display: none;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
+
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 3px 7px 6px;
+    background-color: var(--btn-color);
+    position: absolute;
+    top: 13rem;
+    right: 1rem;
+}
+
+#mode {
+    font-size: 1.5rem;
+    padding: 3px 7px 6px;
+    color: var(--nav-color);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
 }
 
 nav a:hover {
