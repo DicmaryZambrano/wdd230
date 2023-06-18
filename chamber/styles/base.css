@@ -28,6 +28,7 @@
     font-family: var(--paragraph-font);
 }
 
+
 a {
     text-decoration: none;
     color: var(--nav-link-color);
@@ -72,9 +73,13 @@ body {
 }
 
 #hero-msg h1,
-#hero-msg h4 {
+#hero-msg h2 {
     text-align: left;
-    color: var(--headline-color-on-color);
+    color: var(--nav-hover-link-color);
+}
+
+#hero-msg h2 {
+    font-size: large;
 }
 
 .button-box {
