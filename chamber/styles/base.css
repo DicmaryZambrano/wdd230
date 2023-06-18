@@ -233,7 +233,6 @@ main {
 
 .weather {
     text-align: center;
-    text-shadow: #161008;
     padding-top: 10vh;
     background: var(--nav-hover-background-color);
     height: 30vh;

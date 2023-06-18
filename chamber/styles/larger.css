@@ -60,13 +60,8 @@
     }
 
     .weather {
-        text-align: center;
-        text-shadow: #161008;
         padding-top: 2.5vh;
-        background: var(--nav-hover-background-color);
         height: 15vh;
-        width: 80%;
-        border-radius: 5px;
     }
 
     #join {
