@@ -112,6 +112,7 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 60vh;
         gap: 25px;
 
         color: var(--paragraph-color-on-color);
