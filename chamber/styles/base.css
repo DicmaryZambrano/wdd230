@@ -48,7 +48,7 @@ h6 {
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -369,5 +369,5 @@ footer {
 
     padding: 15px;
     padding-bottom: 25px;
-    height: 70vh;
+    height: 800px;
 }
