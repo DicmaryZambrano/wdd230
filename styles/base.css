@@ -30,6 +30,32 @@ body {
     flex-direction: column;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    background: radial-gradient(#fff, #a9a9a9);
+	position: absolute;
+	top: 420px;
+	right: 20px;
+    opacity: .9;
+	padding: 1.5rem;
+    border-radius: 13px;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+iframe {
+    grid-column: span 2;
+    width: 100%;
+}
 .wrap {
     flex-grow: 1;
 }
@@ -53,9 +79,8 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-
+    display: flex;
+    flex-direction: column;
     padding: 25px;
     gap: 25px;
 }
@@ -89,6 +114,7 @@ main section p {
 }
 
 .header-container {
+    grid-column: span 2;
     text-align: center;
     margin: 0 0 35px;
 }

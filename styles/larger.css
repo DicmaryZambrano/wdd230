@@ -26,6 +26,16 @@
 
         flex: 1 1 100%;
     }
+    .herolabel {
+        top: 280px;
+        right: 20px;
+    }
+    
+    .herolabel p {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
 
     /*
     nav {
