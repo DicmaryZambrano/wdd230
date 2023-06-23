@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD230 Responsive Images</title>
+    <meta name="author" content="Dicmary Zambrano">
+    <meta name="description" content="Dicmary Zambrano's WDD 230 - Responsive Images">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Responsive Images
+        </h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="A picture of the temple of Brazil" width="2" height="1">
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Dicmary Zambrano Venezuela</p>
+
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/responsiveImages.js"></script>
+</body>
+
+</html>
