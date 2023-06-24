@@ -226,6 +226,7 @@ footer {
 .profile {
     height: auto;
     width: 7.5rem;
+    margin-left: 15px;
 
     border-radius: 15px;
 }
