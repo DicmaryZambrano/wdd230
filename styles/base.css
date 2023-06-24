@@ -30,26 +30,30 @@ body {
     flex-direction: column;
 }
 
+.hero {
+    position: relative;
+    z-index: -1;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
 .hero img {
     width: 100%;
     height: auto;
 }
 
-.herolabel {
-    background: radial-gradient(#fff, #a9a9a9);
-	position: absolute;
-	top: 420px;
-	right: 20px;
-    opacity: .9;
-	padding: 1.5rem;
-    border-radius: 13px;
-}
+.overlay {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-80%, -30%);
+    color: #fff;
+    text-align: center;
+    background: #32292F;
+    padding: 5px;
 
-.herolabel p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
 }
 
 iframe {

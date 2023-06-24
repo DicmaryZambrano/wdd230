@@ -228,21 +228,19 @@ main hr {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
 
-    padding-left: 5%;
-    padding-right: 5%;
     gap: 15px;
 }
 
 .weather {
     text-align: center;
-    padding-top: 10vh;
-    background: var(--nav-hover-background-color);
-    height: 30vh;
     width: 80%;
-    border-radius: 5px;
+    height: auto;
+
 }
 
 .weather p,
@@ -338,7 +336,7 @@ main {
 
 .sponsors img {
     height: auto;
-    width: 86px;
+    width: 12%;
 }
 
 .contact-box p {
