@@ -163,7 +163,7 @@
     }
 
     .business figure{
-        width: 500px;
+        width: 350px;
 
     }
     
@@ -173,11 +173,4 @@
     }
 
 
-}
-
-@media screen and (max-width: 1000px) {
-    .business figure{
-        width: 340px;
-
-    }
 }
