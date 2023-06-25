@@ -28,6 +28,13 @@
     font-family: var(--paragraph-font);
 }
 
+.darken{
+    display: none;
+}
+
+picture{
+    background: var(--primary-color);
+}
 
 a {
     text-decoration: none;
@@ -64,18 +71,26 @@ body {
 }
 
 #hero {
-    display: grid;
-    background: var(--primary-color);
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#hero img{
+    height: auto;
+    width: 100%;
 }
 
 #hero-msg {
-    padding: 25px;
+    padding: 30px;
+    background-color: var(--primary-color);
 }
 
 #hero-msg h1,
 #hero-msg h2 {
-    text-align: left;
-    color: var(--nav-hover-link-color);
+    font-size: 2rem;
+    color: var(--accent3-color);
 }
 
 #hero-msg h2 {
@@ -84,25 +99,6 @@ body {
 
 .button-box {
     margin-top: 25px;
-}
-
-#hero-image {
-    width: 100%;
-}
-
-.img-gradient {
-    position: relative;
-}
-
-
-.img-gradient::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0) 80%);
 }
 
 #menu::before {
@@ -237,10 +233,10 @@ main {
 }
 
 .weather {
+    background: var(--secondary-color);
     text-align: center;
-    width: 80%;
-    height: auto;
-
+    width: 100%;
+    padding: 10px;
 }
 
 .weather p,
@@ -257,7 +253,7 @@ main {
 
 .event {
     width: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     background: var(--accent1-color);
 }
@@ -275,6 +271,10 @@ main {
     margin-bottom: 15px;
 }
 
+.members h2, p, .join-button{
+    margin: 13px;
+}
+
 .member-box .carousel {
     display: flex;
     flex-direction: column;
@@ -286,20 +286,23 @@ main {
     background-size: 100%;*/
 }
 
+.social img{
+    height: auto;
+    width: 100%;
+}
+
+.card img{
+    height: auto;
+    width: 100%;
+}
+
+.card{
+    width: 250px;
+}
+
 .carousel .card {
     display: flex;
     flex-direction: column;
-
-    height: 342px;
-    background: white;
-    width: 300px;
-}
-
-
-.card img {
-    width: 140px;
-    height: 140px;
-    border: 4px solid #fff;
 }
 
 .carousel .card h2 {
@@ -315,12 +318,7 @@ main {
 
 /*fpoter*/
 
-.sponsors {
-    margin-top: 100px;
-    text-align: center;
-}
 
-.sponsors div,
 .social {
     display: flex;
     padding: 16px;
@@ -334,11 +332,6 @@ main {
     justify-self: self-end;
 }
 
-.sponsors img {
-    height: auto;
-    width: 12%;
-}
-
 .contact-box p {
     text-align: center;
 }
@@ -347,6 +340,11 @@ main {
     padding-left: 25px;
     padding-top: 10px;
     flex-grow: 1;
+}
+
+.link-box a img{
+    width: 150px;
+    height: auto;
 }
 
 footer hr {
@@ -362,6 +360,7 @@ footer h2 {
 }
 
 footer {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 25px;
