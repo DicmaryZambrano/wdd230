@@ -372,3 +372,132 @@ footer {
     padding-bottom: 25px;
     height: 800px;
 }
+
+/*discover*/
+
+.visits,.map {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sidebar{
+    padding: 30px;
+}
+
+.sidebar div{
+    margin-bottom: 50px;
+}
+
+iframe{
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.side-content{
+    background: var(--accent2-color);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.side-content h2{
+    color: #eec566;
+}
+
+.calendar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.button {
+background: var(--secondary-color);
+border: 1px solid #ccc;
+padding: 5px 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.days {
+display: flex;
+}
+
+.day {
+flex: 1;
+text-align: center;
+}
+
+.dates {
+display: flex;
+flex-wrap: wrap;
+}
+
+.date {
+flex: 1;
+text-align: center;
+padding: 10px;
+border: 1px solid  var(--accent1-color);
+border-radius: 5px;
+margin-right: 10px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.current {
+background-color: var(--accent3-color);
+}
+
+.main-wrapper{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-wrapper picture{
+    background: none;
+}
+
+.main-wrapper picture img{
+    width: 100%;
+    height: auto;
+}
+
+.main-wrapper main{
+    display: block;
+}
+
+.business {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.business figure{
+    padding: 15px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+  
+.hover:hover{
+    box-shadow: 0 0 50px var(--accent2-color);
+    transition: .5s ease;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+}
+

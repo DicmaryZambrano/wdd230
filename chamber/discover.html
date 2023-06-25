@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicmary - WDD 230 - Valera Chamber of Commerce</title>
+    <meta name="author" content="Dicmary Zambrano">
+    <meta name="description" content="Dicmary Zambrano's WDD 230 Project- Valera Chamber of Commerce">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Dicmary - WDD 230 - Valera Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dicmaryzambrano.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://i.imgur.com/IbPz0EG.png">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <a href="index.html" id="logo_link" draggable="false">
+                <img class="logo" src="images/chamber_logo_color.png" alt="Valera Chamber of Commerce Logo"
+                    draggable="false" width="4.2" height="1">
+            </a>
+            <a id="join" href="index.html">Join</a>
+        </header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </nav>
+            <div id="hero">
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                    <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                    <img src="images/hero-large.webp" alt="View of the center of valera" width="16" height="9">
+                </picture>
+                <div class="overlay"></div>
+                <div class="darken"></div>
+                <section id="hero-msg">
+                    <h1>
+                        Discover all the Chamber of Commerce has to Offer
+                    </h1>
+                    <h2>
+                        Valera is beutifull and full of opportunity for growing businesses looking to expand their horizons
+                    </h2>
+                </section>
+              </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="sidebar">
+                <div class="side-content">
+                    <h2>A new Building is being Constructed on La Cejita</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, rerum.</p>
+                </div>
+                <div class="calendar">
+                    <div class="header">
+                      <button id="prev-month">&lt;</button>
+                      <h2 id="current-month"></h2>
+                      <button id="next-month">&gt;</button>
+                    </div>
+                    <div class="days">
+                      <div class="day">Sun</div>
+                      <div class="day">Mon</div>
+                      <div class="day">Tue</div>
+                      <div class="day">Wed</div>
+                      <div class="day">Thu</div>
+                      <div class="day">Fri</div>
+                      <div class="day">Sat</div>
+                    </div>
+                    <div class="dates"></div>
+                  </div>
+                  <div class="side-content">
+                    <h2>Chiqui is known as the most sucessfull woman in Pampanito</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati labore commodi vero veniam, impedit modi explicabo? Aspernatur, temporibus assumenda.</p>
+                  </div>
+                  <div class="visits">
+                    <h2>☀️ Visits ☀️</h2>
+                    <p><span id="sidebar-message"></span></p>
+                  </div>
+                  <div class="side-content">
+                    <h2>Valera Comics Gamer Friki Convention is a hit for the youth in Valera</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati labore commodi vero veniam, impedit modi explicabo? Aspernatur, temporibus assumenda.</p>
+                  </div>
+                  <div class="map">
+                    <h2>What are the best places to visit in Valera 👁️</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62994.17636612361!2d-70.64985815248983!3d9.321213589474425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6328692ebdd3d5%3A0xd3d8efa5fb790d11!2sValera%2C%20Trujillo!5e0!3m2!1ses-419!2sve!4v1687663719692!5m2!1ses-419!2sve" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+            </div>
+            <main>
+                <div class="business">
+                    <h2>Biggest Arepa Sell in Valera</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <figure class="hover">
+                        <img src="images/Valera_00019.webp" alt="common food of pampam" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00020.webp" alt="common food of valencia" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00021.webp" alt="common food of pampanito" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00022.webp" alt="common food of san pedro" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00023.webp" alt="common food ood estocal" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00024.webp" alt="common food of trujillo" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    
+                    <h2>The beuty of Valera is Infinite</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <figure class="hover">
+                        <img src="images/Valera_0001.webp" alt="valera centro" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0002.webp" alt="valera acacias" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0003.webp" alt="valera apartamentos" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0004.webp" alt="valera la morita" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0005.webp" alt="valera carvajal" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0006.webp" alt="valera su casa" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                
+                    <h2>Latest Pictures of La Virgen de La Paz</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <figure class="hover">
+                        <img src="images/Valera_00013.webp" alt="La virgen close up" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00014.webp" alt="La virgen park" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00015.webp" alt="La virgen from below" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00016.webp" alt="La virgen capilla" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00017.webp" alt="La virgen view" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00018.webp" alt="La virgen and the dove" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <h2>What is new in Pampanito, Fiestas de San Juan Bautista</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <figure class="hover">
+                        <img src="images/Valera_0007.webp" alt="Las fiestas de san juan" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0008.webp" alt="Capilla of San Juan Bautista" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_0009.webp" alt="San Juan tambores" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00010.webp" alt="Fiestas in the plaza of pampanito" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00011.webp" alt="Typical dances of San Juan" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                    <figure class="hover">
+                        <img src="images/Valera_00012.webp" alt="San Juan Bautista" width="1" height="1" loading="lazy">
+                        <figurecaption></figurecaption>
+                    </figure>
+                </div>
+            </main>
+          </div>
+    </div>
+    <footer>
+        <div class="link-box">
+            <a href="index.html" class="foot-logo" draggable="false">
+                <img src="images/horse_logo.webp" alt="Valera Chamber of Commerce Logo" draggable="false" width="1.2" height="1" loading="lazy">
+            </a>
+            <h2>
+                The Valera Chamber of<br>Commerce Founded<br>19XX - 20XX
+            </h2>
+            <ul class="foot-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </div>
+        <div class="contact-box">
+            <p>contact: chamberofcommerce@valera.com <br> location: Valera La Morita Avenita Principal departamento 259
+                <br>
+                number:+58 999 999 999
+            </p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.whatsapp.com"><img src="images/whatsapp.svg" alt="whatsapp" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.youtube.com"><img src="images/youtube.svg" alt="youtube" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.twitter.com"><img src="images/twitter.svg" alt="twitter" width="1" height="1" loading="lazy"></a></li>
+            </ul>
+        </div>
+        <div class="copy-box">
+            <hr>
+            <p>&copy; <span id="year"></span> Valera Chamber of Commerce<br> Dicmary Zambrano Venezuela <br>WDD 230
+                Project</p>
+
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/calendar.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+</body>
+
+</html>

@@ -149,4 +149,35 @@
         width: 100%;
 
     }
+
+    /*discover*/
+
+    .main-wrapper main{
+    margin: 0;
+    display: block;
+    }
+
+    .main-wrapper{
+    display: grid;
+    grid-template-columns: 400px auto;
+    }
+
+    .business figure{
+        width: 500px;
+
+    }
+    
+
+    .business{
+    grid-column: 2/3;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .business figure{
+        width: 340px;
+
+    }
 }
