@@ -1,0 +1,83 @@
+:root {
+    --warning: red;
+    --label-color: #26004b;
+    --border-color: #6E8387;
+    --form-color: #12090F;
+    --input-btn: #47008e;
+    --correct: green;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 700px;
+}
+
+#password-match{
+    display: none; 
+    color: var(--warning);
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--form-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: var(--label-color);
+    font-size: 1.1rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #666;
+    max-width: 25rem;
+    background-color: #f2f2f2;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #666;
+}
+
+form input.submitBtn {
+    border: none;
+    background: var(--input-btn);
+    color: #fdfbf7;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 25rem;
+}
+
+form label.top input:required {
+    border-left: var(--warning) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: var(--correct) solid 6px;
+}
+
+input[type='range'] {
+    width: 500px;
+    margin: 10px 0;
+  }

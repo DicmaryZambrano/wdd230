@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicmary - WDD 230 - Web Frontend Development Form</title>
+    <meta name="author" content="Dicmary Zambrano">
+    <meta name="description" content="Dicmary Zambrano's WDD 230 - Web Frontend Development course homepage form">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Dicmary - WDD 230 - Web Frontend Development Form">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dicmaryzambrano.github.io/wdd230/">
+    <meta property="og:image" content="https://i.imgur.com/aq8co11.png">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div id="mode">
+                ☑️
+            </div>
+            <img class="profile" src="images/dicmary_photo.webp" height="1" width="1" alt="A photo of Dicmary Zambrano">
+            <h1>Dicmary Zambrano</h1>
+        </header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="header-container">
+                <h2>
+                    WDD 230:Web Frontend Development Form
+                </h2>
+                <hr>
+            </div>
+            <div class="container">
+                <form method="get" action="record.html">
+                    <fieldset>
+                        <legend>
+                            Your Information
+                        </legend>
+
+                        <label class="top" for="username">Username* <input type="text" id="username" name="username" required></label>
+                        
+                      
+                        <label class="top" for="password">Password* <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters and can only be alpha-numeric"></label>
+                        
+                      
+                        <label class="top" for="confirm-password">Confirm Password* <input type="password" id="confirm-password" name="confirm-password" required onblur="checkPassword()"></label>
+                        
+                      
+                        <label class="top" for="email">Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email @byui.edu address"></label>
+                        
+                    
+                        <p id="password-match">Passwords do not match. Please try again.</p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Page Rating
+                        </legend>
+
+                        <label class="sbs" for="page-rating">Your Page Rating <input type="range" id="page-rating" name="page-rating" min="0" max="10" value="5" step="1" list="rangevalues" onchange="updateRating()"></label>
+                        
+                        <label>Current Rating </label>
+                        <div id="rangevalue">5</div>
+                        
+                        <datalist id="rangevalues">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </datalist>
+            
+                    </fieldset>
+        
+                    <input type="submit" value="Create My Account" class="submitBtn">
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; <span id="year"></span> Dicmary Zambrano Venezuela</p>
+
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+
+</html>
