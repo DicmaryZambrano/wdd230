@@ -54,7 +54,7 @@
                             Your Information
                         </legend>
 
-                        <label class="top" for="username">Username* <input type="text" id="username" name="username" required></label>
+                        <label class="top" for="username">Username* <input type="text" id="username" name="username" required pattern="[a-zA-Z]{8,}" required></label>
                         
                       
                         <label class="top" for="password">Password* <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" placeholder="8 characters long" title="Password must be at least 8 characters and can only be alpha-numeric"></label>
@@ -94,7 +94,7 @@
             
                     </fieldset>
 
-                    <button id="btnSubmit" type="submit" class="submitBtn">Create My Account</button>
+                    <button id="btnSubmit" type="submit" class="submitBtn" value="create-account">Create My Account</button>
                 </form>
             </div>
         </main>
