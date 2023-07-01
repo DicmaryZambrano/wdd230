@@ -604,6 +604,7 @@ form legend {
 .tiers {
     width: 100%;
     max-width: 800px;
+    overflow: auto;
 }
 
 form label.top,form label.sbs, form div{
@@ -680,7 +681,7 @@ thead tr:last-child th {
 
 th, td {
     padding: 12px 15px;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 tbody {
@@ -690,10 +691,6 @@ tbody {
 tbody tr:nth-child(even){
     background: var(--zebra);
 }
-/*
-tbody tr:last-child {
-}
-*/
 
 tbody td,tbody th{
     border: thin solid var(--bord);
