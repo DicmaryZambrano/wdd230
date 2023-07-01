@@ -45,11 +45,6 @@
         background: rgba(0, 0, 0, 0.471);
     }
       
-    #hero{
-        margin-top: -100px;
-        z-index: -1;
-    }
-
     .overlay {
     position: absolute;
     top: 0;
@@ -57,6 +52,7 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0) 80%);
+
     }
     
     #hero-msg {
@@ -66,7 +62,7 @@
     background: none;
     text-align: left;
     padding: 10px;
-    box-sizing: border-box;
+    z-index: 3;
     }
     
     #hero-msg h1 {
@@ -78,8 +74,6 @@
     hr{
         grid-column: 2/3;
     }
-
-
 
     .weather {
         grid-column: 2/3;
@@ -167,7 +161,6 @@
 
     }
     
-
     .business{
     grid-column: 2/3;
     }
