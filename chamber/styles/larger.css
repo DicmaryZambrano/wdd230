@@ -164,6 +164,8 @@
     .business{
     grid-column: 2/3;
     }
-
-
+    
+    th, td {
+        font-size: 1rem;
+    }
 }

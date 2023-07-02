@@ -601,6 +601,10 @@ form legend {
     max-width: 600px;
 }
 
+form {
+    margin-top: 50px;
+}
+
 .tiers {
     width: 100%;
     max-width: 800px;
@@ -657,7 +661,7 @@ form textarea{
 /*table*/
 
 table {
-	margin: 35px auto;
+	margin: 25px auto;
 	border-collapse: collapse;
     border-radius: 15px;
     overflow: hidden;
