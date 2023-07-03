@@ -59,7 +59,7 @@ form label.sbs{
     color: #666;
 }
 
-form button.submitBtn {
+form .submitBtn {
     border: none;
     background: var(--input-btn);
     color: #fdfbf7;
