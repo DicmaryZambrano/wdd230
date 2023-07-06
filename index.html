@@ -90,6 +90,7 @@
                         <a href="https://codepen.io/Dicmary-Zambrano/pen/xxQLYVZ">Pseudo Elements</a> ~
                         <a href="week5/new-ward-members.json">JSON</a> ~
                         <a href="week5/prophets.html">Fetch Latter-day Prophets</a> ~
+                        <a href="week5/weather.html">Weather Test</a>
                     </li>
                     <li>Week 6:</li>
                 </ul>
@@ -98,12 +99,16 @@
             <section class="card">
                 <h3>Information</h3>
                 <div class="info">
-                    <p>Venezuela</p>
-                    <p>weather: <span id="weather">35F</span></p>
-                    <p>visits: <span id="visits"></span></p>
+                    <p>Current Weather in Pampanito</p>
+                    <p>Temperature: <span id="temp"></span></p>
+                    <figure>
+                        <img id="weather-img" src="" alt="">
+                        <figcaption id="desc"></figcaption>
+                    </figure>
+                    <p>Visits: <span id="visits"></span></p>
                 </div>
             </section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15744.42644454659!2d-70.51259283679204!3d9.41204460064502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e62d419d1c2c9ab%3A0x3c2c00403c72c7bc!2sPampanito%2C%20Trujillo!5e0!3m2!1ses!2sve!4v1687500828128!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="Pampanito Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15744.42644454659!2d-70.51259283679204!3d9.41204460064502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e62d419d1c2c9ab%3A0x3c2c00403c72c7bc!2sPampanito%2C%20Trujillo!5e0!3m2!1ses!2sve!4v1687500828128!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </main>
         
     </div>
@@ -115,6 +120,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>

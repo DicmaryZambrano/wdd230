@@ -232,4 +232,14 @@ footer {
     border-radius: 15px;
 }
 
+figure{
+    text-align: center;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+}
+
 

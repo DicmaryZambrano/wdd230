@@ -65,10 +65,10 @@
                         <fieldset>
                           <legend>Applicant Information</legend>
                             <label class="top" for="first-name">Applicant's First Name*  
-                              <input type="text" id="first-name" name="first-name" required>
+                              <input type="text" id="first-name" name="first-name" pattern="[a-zA-Z\s-]{7,}" required>
                             </label>
                             <label class="top" for="last-name">Applicant's Last Name*  
-                              <input type="text" id="last-name" name="last-name" required>
+                              <input type="text" id="last-name" name="last-name" pattern="[a-zA-Z\s-]{7,}" required>
                             </label>
 
                             <label class="top" for="position">Applicant's Title/Position*  
@@ -86,7 +86,7 @@
                           <legend>Business/Organization Information</legend>
                           
                             <label class="top" for="organization">Business/Organization Name*  
-                              <input type="text" id="organization" name="organization" required>
+                              <input type="text" id="organization" name="organization" pattern="[a-zA-Z\s-]{7,}" required>
                             </label>
 
                             <label class="sbs"><input type="radio" id="np_membership" name="membership" value="NP Membership" required> NP Membership</label>
@@ -99,7 +99,7 @@
                             </label>
                         </fieldset>
                       
-                        <input type="hidden" id="timestamp" name="timestamp">
+                        <input type="hidden" id="timestamp" name="timestamp" value="">
                         <input id="btnSubmit" type="submit" class="submitBtn" value="Join The Chamber">
                       </form>
                 </div>

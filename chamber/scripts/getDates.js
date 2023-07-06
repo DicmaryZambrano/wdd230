@@ -1,5 +1,3 @@
-
-
 const oLastModif = new Date(document.lastModified);
 const d = new Date();
 
