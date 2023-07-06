@@ -473,47 +473,47 @@ iframe{
 }
 
 .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .button {
-background: var(--secondary-color);
-border: 1px solid #ccc;
-padding: 5px 10px;
-border-radius: 5px;
-cursor: pointer;
+    background: var(--secondary-color);
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .days {
-display: flex;
+    display: flex;
 }
 
 .day {
-flex: 1;
-text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
 .dates {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .date {
-flex: 1;
-text-align: center;
-padding: 10px;
-border: 1px solid  var(--accent1-color);
-border-radius: 5px;
-margin-right: 10px;
-margin-bottom: 10px;
-cursor: pointer;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid  var(--accent1-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .current {
-background-color: var(--accent3-color);
+    background-color: var(--accent3-color);
 }
 
 .main-wrapper{
@@ -547,13 +547,6 @@ background-color: var(--accent3-color);
     width: 300px;
     margin: 0 auto;
     margin-top: 50px;
-}
-
-
-  
-.hover:hover{
-    box-shadow: 0 0 50px var(--accent2-color);
-    transition: .5s ease;
 }
 
 figure img{

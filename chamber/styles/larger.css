@@ -146,23 +146,29 @@
 
     /*discover*/
 
+    .hover:hover{
+        box-shadow: 0 0 50px var(--accent2-color);
+        transition: .5s ease;
+    }
+
     .main-wrapper main{
     margin: 0;
     display: block;
     }
 
     .main-wrapper{
-    display: grid;
-    grid-template-columns: 400px auto;
+        display: grid;
+        grid-template-columns: 400px auto;
     }
 
     .business figure{
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
 
     }
     
     .business{
-    grid-column: 2/3;
+        grid-column: 2/3;
     }
     
     th, td {
