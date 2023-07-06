@@ -1,7 +1,95 @@
 {
-    "week01":"",
-    "week02":"",
-    "week03":"",
-    "week04":"",
-    "week05":""
+	"weeks": [{
+			"week": "Week 1",
+			"links": [{
+					"title": "Holy Grail",
+					"link": "week01-hw/holy-grail/holygrail.html"
+				},
+				{
+					"title": "JavaScript",
+					"link": "https://codepen.io/Dicmary-Zambrano/pen/xxQKNMe"
+				},
+				{
+					"title": "Media Query",
+					"link": "week01-hw/media/media-query.html"
+				}
+			]
+		},
+		{
+			"week": "Week 2",
+			"links": [{
+					"title": "CSS design fixl",
+					"link": "week02/design.html"
+				},
+				{
+					"title": "Hamburger Menu",
+					"link": "https://codepen.io/Dicmary-Zambrano/pen/OJaMrKx"
+				},
+				{
+					"title": "Bom Dom Manipulation",
+					"link": "week02/bom.html"
+				}
+			]
+		},
+		{
+			"week": "Week 3",
+			"links": [{
+					"title": "WebP",
+					"link": "week03/images/landscape.webp"
+				},
+				{
+					"title": "Lazy Load",
+					"link": "week03/lazyload.html"
+				},
+				{
+					"title": "Responsive Images",
+					"link": "week03/reponsive-images.html"
+				},
+				{
+					"title": "Bom LocalStorage",
+					"link": "week03/bom.html"
+				}
+			]
+		},
+		{
+			"week": "Week 4",
+			"links": [{
+					"title": "Pseudo Classes",
+					"link": "https://codepen.io/Dicmary-Zambrano/pen/gOQmdRe"
+				},
+				{
+					"title": "Combinators Screenshot",
+					"link": "week04/images/combinators.JPG"
+				},
+				{
+					"title": "Forms",
+					"link": "week04/index.html"
+				},
+				{
+					"title": "Table Build",
+					"link": "week04/tablebuild.html"
+				}
+			]
+		},
+		{
+			"week": "Week 5",
+			"links": [{
+					"title": "Pseudo Elements",
+					"link": "https://codepen.io/Dicmary-Zambrano/pen/xxQLYVZ"
+				},
+				{
+					"title": "JSON",
+					"link": "week5/new-ward-members.json"
+				},
+				{
+					"title": "Fetch Latter-day Prophets",
+					"link": "week5/prophets.html"
+				},
+				{
+					"title": "Weather Test",
+					"link": "week5/weather.html"
+				}
+			]
+		}
+	]
 }
