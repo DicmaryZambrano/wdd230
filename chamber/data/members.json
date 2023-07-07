@@ -1,66 +1,75 @@
 {
 	"members": [{
-			"name": "Valera Corp",
-			"address": "Av. Bolivar Este, Edificio Centro Empresarial, Piso 7, Oficina 712",
-			"phone": "+58 274 263 4532",
-			"website": "valeracorp.com",
-			"logo": "images/here",
-			"membership": "Gold",
-			"desc": "Valera Corp is a leading provider of innovative solutions for businesses in the Valera area. Our Gold membership offers exclusive access to our premium services, including personalized consulting, customized marketing strategies, and priority support."
-		},
-		{
-			"name": "Venezuela Solutions",
-			"address": "Calle 6, Edificio La Cascada, Piso 2, Oficina 202",
-			"phone": "+58 274 262 7400",
-			"website": "venezuelasolutions.com",
-			"logo": "images/here",
-			"membership": "Silver",
-			"desc": "Venezuela Solutions is dedicated to providing high-quality services to businesses in Valera and throughout Venezuela. Our Silver membership includes access to our comprehensive suite of digital marketing solutions, as well as ongoing support from our expert team."
-		},
-		{
-			"name": "GlobalTech",
-			"address": "Calle 10, Edificio El Parque, Piso 3, Oficina 302",
-			"phone": "+58 274 266 3541",
-			"website": "globaltech.com.ve",
-			"logo": "images/here",
-			"membership": "Bronze",
-			"desc": "GlobalTech is a trusted provider of IT solutions and support for businesses in Valera and beyond. Our Bronze membership includes access to our helpdesk services, as well as discounted rates on our hardware and software offerings."
-		},
-		{
-			"name": "Innovatec",
-			"address": "Calle 8, Edificio Las Acacias, Piso 5, Oficina 501",
-			"phone": "+58 274 263 5689",
-			"website": "innovatec.com.ve",
-			"logo": "images/here",
+			"name": "InnovaCorp",
+			"address": "Calle 2, Edificio Innovación, Piso 3, Oficina 301",
+			"phone": "+58 274 555 5555",
+			"website": "innovacorp.com",
+			"logo": "images/innovacorp.webp",
 			"membership": "NP",
-			"desc": "Innovatec is a dynamic and forward-thinking company that specializes in providing cutting-edge solutions for businesses of all sizes. Our NP membership includes access to our innovative software and hardware offerings, as well as ongoing support from our team of experts."
+			"desc": "InnovaCorp specializes in providing innovative IT solutions for businesses in Valera and beyond."
 		},
 		{
-			"name": "Valera Marketing",
-			"address": "Av. Bolivar Oeste, Edificio La Torre, Piso 6, Oficina 602",
-			"phone": "+58 274 266 8795",
-			"website": "valeramarketing.com",
-			"logo": "images/here",
+			"name": "Valera Marketing Solutions",
+			"address": "Av. Bolivar Este, Edificio Valencia, Piso 8, Oficina 804",
+			"phone": "+58 274 555 5556",
+			"website": "valeramarketingsolutions.com",
+			"logo": "images/valeramarket.webp",
+			"membership": "Gold",
+			"desc": "Valera Marketing Solutions is a full-service marketing agency that specializes in helping businesses in Valera and throughout Venezuela to reach their full potential."
+		},
+		{
+			"name": "Global Business Consulting",
+			"address": "Calle 10, Edificio El Parque, Piso 3, Oficina 302",
+			"phone": "+58 274 555 5557",
+			"website": "globalbusinessconsulting.com",
+			"logo": "images/consultant.webp",
 			"membership": "Silver",
-			"desc": "Valera Marketing is a full-service marketing agency that specializes in helping businesses in Valera and throughout Venezuela to reach their full potential. Our Silver membership includes access to our comprehensive suite of marketing services, as well as ongoing support from our experienced team."
+			"desc": "Global Business Consulting is a trusted provider of consulting services for businesses in the Valera area."
+		},
+		{
+			"name": "Valera Accounting Services",
+			"address": "Calle 12, Edificio Las Acacias, Piso 4, Oficina 401",
+			"phone": "+58 274 555 5558",
+			"website": "valeraaccountingservices.com",
+			"logo": "images/accounting.webp",
+			"membership": "Bronze",
+			"desc": "Valera Accounting Services is a trusted provider of accounting and bookkeeping services for businesses in the Valera area."
 		},
 		{
 			"name": "TechVal",
-			"address": "Calle 4, Edificio El Parque, Piso 2, Oficina 202",
-			"phone": "+58 274 267 3541",
-			"website": "techval.com.ve",
-			"logo": "images/here",
-			"membership": "Gold",
-			"desc": "TechVal is a leading provider of IT solutions and support for businesses in the Valera area. Our Gold membership includes access to our premium services, including personalized consulting, customized software solutions, and priority support."
+			"address": "Av. Bolivar Oeste, Edificio TechVal, Piso 5, Oficina 501",
+			"phone": "+58 274 555 5559",
+			"website": "techval.com",
+			"logo": "images/teachva.webp",
+			"membership": "NP",
+			"desc": "TechVal is a company that specializes in providing comprehensive IT solutions for businesses in the Valera area."
 		},
 		{
-			"name": "Valera Consulting",
-			"address": "Calle 12, Edificio Las Acacias, Piso 4, Oficina 401",
-			"phone": "+58 274 269 5689",
-			"website": "valeraconsulting.com",
-			"logo": "images/here",
+			"name": "Valera Legal Services",
+			"address": "Calle 6, Edificio La Cascada, Piso 2, Oficina 202",
+			"phone": "+58 274 555 5560",
+			"website": "valeralegalservices.com",
+			"logo": "images/legalval.webp",
+			"membership": "Silver",
+			"desc": "Valera Legal Services is a trusted provider of legal services for businesses in the Valera area."
+		},
+		{
+			"name": "Valera Business Solutions",
+			"address": "Calle 4, Edificio Valencia, Piso 6, Oficina 601",
+			"phone": "+58 274 555 5561",
+			"website": "valerabusinesssolutions.com",
+			"logo": "images/solutions.webp",
+			"membership": "Gold",
+			"desc": "Valera Business Solutions is a company that specializes in providing innovative solutions for businesses in theValera area."
+		},
+		{
+			"name": "Valera HR Services",
+			"address": "Calle 8, Edificio Las Acacias, Piso 5, Oficina 501",
+			"phone": "+58 274 555 5562",
+			"website": "valerahrservices.com",
+			"logo": "images/hrval.webp",
 			"membership": "Bronze",
-			"desc": "Valera Consulting is a trusted provider of consulting services for businesses in the Valera area. Our Bronze membership includes access to our comprehensive suite of consulting services, as well as discounted rates on our training and development programs."
+			"desc": "Valera HR Services is a trusted provider of human resources services for businesses in the Valera area."
 		}
 	]
 }
