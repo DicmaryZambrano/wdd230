@@ -146,6 +146,10 @@ ul li {
     list-style: none;
 }
 
+ul li p span:not(:first-child)::before {
+    content: " ~ ";
+  }
+
 
 .navigation li a {
     display: block;
