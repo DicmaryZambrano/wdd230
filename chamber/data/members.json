@@ -1,0 +1,66 @@
+{
+	"members": [{
+			"name": "Valera Corp",
+			"address": "Av. Bolivar Este, Edificio Centro Empresarial, Piso 7, Oficina 712",
+			"phone": "+58 274 263 4532",
+			"website": "valeracorp.com",
+			"logo": "images/here",
+			"membership": "Gold",
+			"desc": "Valera Corp is a leading provider of innovative solutions for businesses in the Valera area. Our Gold membership offers exclusive access to our premium services, including personalized consulting, customized marketing strategies, and priority support."
+		},
+		{
+			"name": "Venezuela Solutions",
+			"address": "Calle 6, Edificio La Cascada, Piso 2, Oficina 202",
+			"phone": "+58 274 262 7400",
+			"website": "venezuelasolutions.com",
+			"logo": "images/here",
+			"membership": "Silver",
+			"desc": "Venezuela Solutions is dedicated to providing high-quality services to businesses in Valera and throughout Venezuela. Our Silver membership includes access to our comprehensive suite of digital marketing solutions, as well as ongoing support from our expert team."
+		},
+		{
+			"name": "GlobalTech",
+			"address": "Calle 10, Edificio El Parque, Piso 3, Oficina 302",
+			"phone": "+58 274 266 3541",
+			"website": "globaltech.com.ve",
+			"logo": "images/here",
+			"membership": "Bronze",
+			"desc": "GlobalTech is a trusted provider of IT solutions and support for businesses in Valera and beyond. Our Bronze membership includes access to our helpdesk services, as well as discounted rates on our hardware and software offerings."
+		},
+		{
+			"name": "Innovatec",
+			"address": "Calle 8, Edificio Las Acacias, Piso 5, Oficina 501",
+			"phone": "+58 274 263 5689",
+			"website": "innovatec.com.ve",
+			"logo": "images/here",
+			"membership": "NP",
+			"desc": "Innovatec is a dynamic and forward-thinking company that specializes in providing cutting-edge solutions for businesses of all sizes. Our NP membership includes access to our innovative software and hardware offerings, as well as ongoing support from our team of experts."
+		},
+		{
+			"name": "Valera Marketing",
+			"address": "Av. Bolivar Oeste, Edificio La Torre, Piso 6, Oficina 602",
+			"phone": "+58 274 266 8795",
+			"website": "valeramarketing.com",
+			"logo": "images/here",
+			"membership": "Silver",
+			"desc": "Valera Marketing is a full-service marketing agency that specializes in helping businesses in Valera and throughout Venezuela to reach their full potential. Our Silver membership includes access to our comprehensive suite of marketing services, as well as ongoing support from our experienced team."
+		},
+		{
+			"name": "TechVal",
+			"address": "Calle 4, Edificio El Parque, Piso 2, Oficina 202",
+			"phone": "+58 274 267 3541",
+			"website": "techval.com.ve",
+			"logo": "images/here",
+			"membership": "Gold",
+			"desc": "TechVal is a leading provider of IT solutions and support for businesses in the Valera area. Our Gold membership includes access to our premium services, including personalized consulting, customized software solutions, and priority support."
+		},
+		{
+			"name": "Valera Consulting",
+			"address": "Calle 12, Edificio Las Acacias, Piso 4, Oficina 401",
+			"phone": "+58 274 269 5689",
+			"website": "valeraconsulting.com",
+			"logo": "images/here",
+			"membership": "Bronze",
+			"desc": "Valera Consulting is a trusted provider of consulting services for businesses in the Valera area. Our Bronze membership includes access to our comprehensive suite of consulting services, as well as discounted rates on our training and development programs."
+		}
+	]
+}
