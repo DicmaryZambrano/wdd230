@@ -33,9 +33,9 @@
         <nav>
             <button id="menu"></button>
             <ul class="navigation">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="#" class="active">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
@@ -49,10 +49,10 @@
             <div class="darken"></div>
             <section id="hero-msg">
                 <h1>
-                    The Valera Chamber of Commerce is looking for New Members
+                    The Valera Chamber of Commerce Member Directory
                 </h1>
                 <h2>
-                    Are you a growing business? you would be a perfect member
+                    Meet all the wonderfull members that are part of the chamber
                 </h2>
                 <div class="button-box">
                     <a class="join-button" href="join.html">Join Us</a>
@@ -60,148 +60,20 @@
             </section>
             </div>
         </div>
-        <main>
+        <main id="directory">
             <hr>
-            <section class="events">
-                <h2>Latests Events and Fund Raisers</h2>
+            <section class="members-box">
+                <h2>Member Directory</h2>
+                <select id="membership-filter">
+                    <option value="">All Memberships</option>
+                    <option value="np">NP</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+                <button id="toggle-button">X</button>
+                <div class="d-members grid">
 
-                <div class="event">
-                    <img src="images/cocoa.jpg" alt="cocoa bag" draggable="false" width="16" height="9">
-                    <div class="container">
-                        <h3>Biggest Cocoa Convention in Los Roques</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident minima nostrum
-                            accusamus
-                            nobis quo ducimus modi pariatur illum laboriosam fugiat numquam, dignissimos in esse omnis
-                            non
-                            velit autem ad.</p>
-                    </div>
-                </div>
-
-                <div class="event">
-                    <img src="images/ecommerce.jpg" alt="ecommerce photo" draggable="false" width="16" height="9">
-                    <div class="container">
-                        <h3>E-Commerce event</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident minima nostrum
-                            accusamus
-                            nobis quo ducimus modi pariatur illum laboriosam fugiat numquam, dignissimos in esse omnis
-                            non
-                            velit autem ad.</p>
-                    </div>
-
-                </div>
-
-                <div class="event">
-                    <img src="images/office2.webp" alt="a skyscraper from caracas" draggable="false" width="16" height="9">
-                    <div class="container">
-                        <h3>New Fundraiser for local businesses</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, provident minima nostrum
-                            accusamus
-                            nobis quo ducimus modi pariatur illum laboriosam fugiat numquam, dignissimos in esse omnis
-                            non
-                            velit autem ad.</p>
-                    </div>
-
-                </div>
-
-            </section>
-            <hr>
-            <section class="weather">
-                <h2>Weather Report</h2>
-                <h3>☀️23C</h3>
-                <p>
-                    Prob Rain:<span>9%</span><br>
-                    Humidity:<span>83%</span><br>
-                    Wind:<span>2km/h</span><br>
-                </p>
-            </section>
-            <hr>
-            <section class="members">
-                <h2 class="h2-color">Member Spotlights of the Valera Chamber</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem provident nam odio totam voluptatem!
-                    Ab assumenda modi recusandae, quae suscipit, quaerat ipsam quibusdam fugiat perferendis autem
-                    mollitia, cupiditate nesciunt dignissimos.</p>
-                <button class="join-button">
-                    Join Us
-                </button>
-                <div class="wrapper">
-                    
-                    <!--div class="carousel-container">
-                        <div class="carousel">
-                          <div class="slide">
-                            <img src="chamber/images/bbq.png" alt="Image 1">
-                            <div class="caption">Soporto</div>
-                          </div>
-                          <div class="slide">
-                            <img src="chamber/images/bbq.png" alt="Image 2">
-                            <div class="caption">Valera</div>
-                          </div>
-                          <div class="slide">
-                            <img src="chamber/images/bbq.png" alt="Image 3">
-                            <div class="caption">Capital</div>
-                          </div>
-                          <div class="slide">
-                            <img src="chamber/images/bbq.png" alt="Image 4">
-                            <div class="caption">La Union</div>
-                          </div>
-                          <div class="slide">
-                            <img src="chamber/images/bbq.png" alt="Image 5">
-                            <div class="caption">Capital Sapo</div>
-                          </div>
-                          <div class="slide">
-                            <img src="chamber/images/bbq.png" alt="Image 6">
-                            <div class="caption">Conceptcion</div>
-                          </div>
-                        </div>
-                        <button class="prev">-</button>
-                        <button class="next">-</button>
-                      </div-->
-
-                    <div class="member-box">
-                        <ul class="carousel">
-                            <li class="card">
-                                <div><img src="images/acdd.webp" alt="acdd logo" draggable="false" width="1" height="1" loading="lazy"></div>
-                                <h2>Painting Company</h2>
-                                <span>acdd@business.com</span>
-                                <span>+58-999-999-999</span>
-                                <span>El Junquito</span>
-                            </li>
-                            <li class="card">
-                                <div><img src="images/pmtm.webp" alt="pmtm logo" draggable="false" width="1" height="1" loading="lazy"></div>
-                                <h2>Floral Company</h2>
-                                <span>pmtm@business.com</span><br>
-                                <span>+58-999-999-999</span><br>
-                                <span>La concepcion</span><br>
-                            </li>
-                            <li class="card">
-                                <div><img src="images/dtr.webp" alt="dtr logo" draggable="false" width="1" height="1" loading="lazy"></div>
-                                <h2>Car Repair</h2>
-                                <span>dtr@business.com</span><br>
-                                <span>+58-999-999-999</span><br>
-                                <span>La cejita</span><br>
-                            </li>
-                            <li class="card">
-                                <div><img src="images/bbq.webp" alt="bbq food logo" draggable="false" width="1" height="1" loading="lazy"></div>
-                                <h2>BBQ Restaurant</h2>
-                                <span>bbq@business.com</span><br>
-                                <span>+58-999-999-999</span><br>
-                                <span>Carmona</span><br>
-                            </li>
-                            <li class="card">
-                                <div><img src="images/ccd.webp" alt="medical supplier logo" draggable="false" width="1" height="1" loading="lazy"></div>
-                                <h2>Medical Supplier</h2>
-                                <span>ccd@business.com</span>
-                                <span>+58-999-999-999</span>
-                                <span>Centro Valera</span>
-                            </li>
-                            <li class="card">
-                                <div><img src="images/veterinaria.webp" alt="veterinary logo" draggable="false" width="1" height="1" loading="lazy"></div>
-                                <h2>Animal Rescue</h2>
-                                <span>patasypelos@business.com</span>
-                                <span>+58-999-999-999</span>
-                                <span>Pampanitos</span>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </section>
         </main>
@@ -241,9 +113,9 @@
             <p id="lastModified"></p>
         </div>
     </footer>
-    <script src="scripts/carousel.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/addMembers.js"></script>
 </body>
 
 </html>
