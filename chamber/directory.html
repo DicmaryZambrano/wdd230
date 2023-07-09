@@ -31,7 +31,7 @@
             <a id="join" href="join.html">Join</a>
         </header>
         <nav>
-            <button id="menu"></button>
+            <button title="unfold menu" id="menu"></button>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
@@ -64,14 +64,23 @@
             <hr>
             <section class="members-box">
                 <h2>Member Directory</h2>
-                <select id="membership-filter">
-                    <option value="">All Memberships</option>
-                    <option value="np">NP</option>
-                    <option value="bronze">Bronze</option>
-                    <option value="silver">Silver</option>
-                    <option value="gold">Gold</option>
-                </select>
-                <button id="toggle-button">X</button>
+
+                <label for="toggle-button">
+                    Toggle View: 
+                    <button title="togggle view" id="toggle-button" class="grid"></button>
+                </label>
+
+                <label for="membership-filter">
+                    Sort By: 
+                    <select id="membership-filter">
+                        <option value="">All Memberships</option>
+                        <option value="np">NP</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </label>
+                
                 <div class="d-members grid">
 
                 </div>

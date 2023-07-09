@@ -19,9 +19,13 @@ toggleStyleButton.addEventListener("click", () => {
     if (memberSection.classList.contains('grid')) {
         memberSection.classList.remove('grid');
         memberSection.classList.add('list');
+        toggleStyleButton.classList.remove('grid');
+        toggleStyleButton.classList.add('list');
     } else {
         memberSection.classList.remove('list');
         memberSection.classList.add("grid");
+        toggleStyleButton.classList.remove('list');
+        toggleStyleButton.classList.add("grid");
     }
 });
 

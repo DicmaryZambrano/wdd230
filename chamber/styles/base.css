@@ -27,8 +27,8 @@
     --table-head: #4a4136;
 
     /*member colors*/
-    --np: #007bff;
-    --bronze: #CD7F32;
+    --np: #0069da;
+    --bronze: #8d5720;
     --silver: #C0C0C0;
     --gold: #eec566;
 }
@@ -711,9 +711,67 @@ tbody td {
 
 /*Directory*/
 
+.d-members {
+    margin-top: 2rem;
+}
+
+.members-box button,
+.members-box select {
+    color: var(--secondary-color);
+    margin-left: 5px;
+}
+
+.members-box label {
+    display: block;
+}
+
+.members-box label:nth-child(3) {
+    margin-top: 1rem;
+}
+
+.members-box h2 {
+    margin-bottom: 1rem;
+}
+
+button.grid::before {
+    color: var(--primary-color);
+    content: " ⊞ ";
+}
+
+button.grid {
+    width: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: var(--accent3-color);
+    border-radius: 5px;
+}
+
+button.grid:hover {
+    background: var(--accent1-color);
+}
+
+button.list::before {
+    color: var(--primary-color);
+    content: " ⁝ ";
+}
+
+button.list:hover {
+    background: var(--accent1-color);
+}
+
+button.list {
+    width: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: var(--accent3-color);
+    border-radius: 5px;
+}
+
 .d-members.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -727,7 +785,7 @@ main#directory {
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -821,9 +879,7 @@ main#directory {
 
 .d-members.list .card-content {
     padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr 1fr;
-    gap: 2rem;
+    display: block;
 }
 
 .d-members.list .card-content h3 {
@@ -842,15 +898,15 @@ main#directory {
 
 .d-members.list .card-content a {
     display: inline-block;
-    color: var(--accent2-color);
+    color: white;
+    padding: 5px;
     margin-bottom: 10px;
-    background: none;
-
+    background: var(--accent2-color);
+    border-radius: 5px;
 }
 
-
 .d-members.list .card-content a:hover {
-    background: none;
+    background: var(--secondary-color);
 }
 
 .d-members.list .card-membership {
